@@ -1,0 +1,8 @@
+# Robots.txt for A1 Asphalt Shreveport
+# https://a1asphaltshreveport.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://a1asphaltshreveport.com/sitemap-index.xml
