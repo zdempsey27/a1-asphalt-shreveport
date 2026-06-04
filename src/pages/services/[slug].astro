@@ -45,7 +45,7 @@ if (contentModules[contentPath]) {
     sections: [
       {
         heading: `What is a ${service.name}?`,
-        content: `${service.name} is a popular fencing option for properties in ${city} and throughout ${region}. Contact us to learn more about how this fencing type can work for your property.`,
+        content: `${service.name} is a popular choice for properties in ${city} and throughout ${region}. Contact us to learn more about how this service can work for your property.`,
       },
       {
         heading: `What Sets Our ${service.name} Service Apart`,
@@ -64,7 +64,7 @@ if (contentModules[contentPath]) {
         { heading: "1. Free Consultation", content: "We visit your property to assess the layout and discuss your goals." },
         { heading: "2. Detailed Estimate", content: "You receive a clear written estimate with no hidden fees." },
         { heading: "3. Site Preparation", content: "We handle permitting and prepare the site for installation." },
-        { heading: "4. Professional Installation", content: "Our crew installs your fence with attention to every detail." },
+        { heading: "4. Professional Installation", content: "Our crew completes the work with attention to every detail." },
       ],
     },
     cta: {
@@ -224,7 +224,7 @@ const heroImage = images.serviceCards[slug] || images.heroMain;
     </section>
   )}
 
-  <!-- WOOD TYPES (only for wood fence) -->
+  <!-- MATERIALS / TYPES (only renders if a content file defines them) -->
   {content.woodTypes && (
     <section class="section" style="background: #f8f8f8;">
       <div class="container">

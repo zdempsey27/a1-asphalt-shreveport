@@ -156,7 +156,7 @@ const overlayColor = colors.overlay;
     <div class="container" style="text-align: center;">
       <span class="section-label" style="color: var(--accent);">SERVICE AREA</span>
       <h2 style="color: white; margin-bottom: 1rem;">Proudly Serving {location.region}</h2>
-      <p style="max-width: 600px; margin: 0 auto 2rem; opacity: 0.9;">We provide professional fencing services throughout {location.county} and surrounding areas including {siteConfig.serviceAreas.map(a => a.name).join(', ')}.</p>
+      <p style="max-width: 600px; margin: 0 auto 2rem; opacity: 0.9;">We provide professional {niche.toLowerCase()} services throughout {location.county} and surrounding areas including {siteConfig.serviceAreas.map(a => a.name).join(', ')}.</p>
       
       <div class="area-tags">
         {siteConfig.serviceAreas.map(area => (
